@@ -16,5 +16,6 @@
 // require imagesloaded/imagesloaded
 // require video.js/dist/video-js/video
 // require BigVideo.js/lib/bigvideo
-
-//= require_tree .
+//= require jquery.tubular.1.0
+// require custom
+// require_tree .

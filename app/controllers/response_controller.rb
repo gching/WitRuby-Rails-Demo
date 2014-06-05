@@ -1,7 +1,7 @@
 
 class ResponseController < ApplicationController
   def show
-
+    @link = flash[:link]
   end
 
   def create
@@ -11,7 +11,7 @@ class ResponseController < ApplicationController
     else
       case results.intent
       when "greetings"
-        link = "Y3nyJu4Bkz8"
+        link = '0Bmhjf0rKe8'
       else
         link = "nope2"
       end

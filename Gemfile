@@ -53,3 +53,5 @@ gem 'pry', group: [:development]
 gem 'redis'
 
 gem 'compass'
+
+gem 'bootstrap-sass', '~> 3.1.1'

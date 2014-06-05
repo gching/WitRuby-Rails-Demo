@@ -1,13 +1,16 @@
-<div id="video">
-<% if flash[:link] %>
-  <p><iframe width="560" height="315" src="//www.youtube.com/embed/<%= flash[:link] %>?rel=0&autoplay=1&loop=1&playlist=<%= flash[:link] %>" frameborder="0" allowfullscreen></iframe></p>
-<% end %>
+
+
+<div class="container">
+  <div class="jumbotron text-center">
+      <%= form_tag({action: "create"}, {class: "form-horizontal"}) do %>
+        <div class="form-group">
+          <%= label_tag(:message, "Message:", class: "col-sm-4 control-label" ) %>
+          <div class="col-sm-4"><%= text_field_tag(:message, nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %></div>
+          <div class="col-sm-4 text-left">
+            <%= submit_tag("Send", class: "btn btn-primary") %>
+          </div>
+        </div>
+      <% end %>
+      <a title="More Info" data-toggle="modal" class="btn btn-success" href="#moreInfo">More Info</a>
+  </div>
 </div>
-
-<br/>
-
-<%= form_tag('/create') do %>
-  <%= label_tag(:message, "Speak to me:") %>
-  <%= text_field_tag(:message) %>
-  <%= submit_tag("Send") %>
-<% end %>
