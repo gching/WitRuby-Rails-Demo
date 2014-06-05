@@ -1,0 +1,13 @@
+<div id="video">
+<% if flash[:link] %>
+  <p><iframe width="560" height="315" src="//www.youtube.com/embed/<%= flash[:link] %>?rel=0&autoplay=1&loop=1&playlist=<%= flash[:link] %>" frameborder="0" allowfullscreen></iframe></p>
+<% end %>
+</div>
+
+<br/>
+
+<%= form_tag('/create') do %>
+  <%= label_tag(:message, "Speak to me:") %>
+  <%= text_field_tag(:message) %>
+  <%= submit_tag("Send") %>
+<% end %>

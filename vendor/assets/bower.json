@@ -1,0 +1,8 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "imagesloaded": "latest",
+    "jquery-ui": "latest",
+    "BigVideo.js": "latest"
+  }
+}
