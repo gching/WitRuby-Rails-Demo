@@ -1,0 +1,14 @@
+<div class="popover-markup"> <a href="#" class="trigger btn btn-large btn-primary">Say Something!</a>
+    <div class="head hide"><h4>Your Message</h4></div>
+    <div class="content hide">
+        <%= form_tag(action: "create") do %>
+          <div class="form-group">
+            <%= text_field_tag(:message, nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %>
+          </div>
+          <%= submit_tag("Send", class: "btn btn-primary") %>
+          <a title="More Info" data-toggle="modal" class="btn btn-success" href="#moreInfo">More Info</a>
+        <% end %>
+
+    </div>
+    <div class="footer hide">test</div>
+</div>

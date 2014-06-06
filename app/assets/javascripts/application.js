@@ -12,10 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-// require jquery-ui/ui/jquery-ui
-// require imagesloaded/imagesloaded
-// require video.js/dist/video-js/video
-// require BigVideo.js/lib/bigvideo
-//= require jquery.tubular.1.0
-// require custom
-// require_tree .
+//= require bootstrap/tooltip
+//= require bootstrap/popover
+//= require custom
+//= require_tree .
