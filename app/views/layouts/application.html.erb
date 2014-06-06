@@ -16,19 +16,25 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
       <%= render "shared/popoverform" %>
+      </div>
+      <div class="pad-plz">
+        <a title="Info" data-toggle="modal" class="btn btn-success pull-right" href="#info">Info</a>
       </div>
     </div>
   </div>
 
 
-  
+
   <div id="wrapper">
     <%= yield %>
   </div>
 
 
+
+
+  <%= render "shared/help" %>
+  <%= render "shared/info" %>
 
   <%= javascript_include_tag "application"%>
   <script>

@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap/tooltip
 //= require bootstrap/popover
+//= require bootstrap/modal
 //= require custom
 //= require_tree .

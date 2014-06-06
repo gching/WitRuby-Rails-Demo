@@ -1,0 +1,23 @@
+<div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="helpLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Examples</h4>
+      </div>
+      <div class="modal-body">
+        <h4> Wit.AI is an natural language interface, meaning that it will figure out what is the meaning of what you are saying.</h4>
+        <h5> Some examples are:</h5>
+        <ul>
+          <%["Hi", "Who are you", "I love you", "Hodor", "I want to watch cat video"].each do |ex| %>
+            <li><%= ex %></li>
+          <% end %>
+        </ul>
+        <h5>There are some secret ones! Guess around! Other variants of the above work too (eg. Hello)</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

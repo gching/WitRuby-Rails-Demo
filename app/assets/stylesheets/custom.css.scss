@@ -1,13 +1,17 @@
 
 
-.jumbotron {
-  opacity: 0.1;
+.navbar {
+  opacity: 0.6;
 
 }
-.jumbotron:hover {
+.navbar:hover {
   opacity: 1.0;
 }
 
 .navbar-header {
+  padding-top: 7px;
+}
+
+.pad-plz {
   padding-top: 7px;
 }
