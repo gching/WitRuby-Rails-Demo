@@ -1,6 +1,7 @@
 <div class="popover-markup"> <a href="#" class="trigger btn btn-large btn-primary">Say Something!</a>
     <div class="head hide"><h4>Your Message</h4></div>
     <div class="content hide">
+        <%= flash[:alert] %>
         <%= form_tag("/create") do %>
           <div class="form-group">
             <%= text_field_tag(:message, nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %>

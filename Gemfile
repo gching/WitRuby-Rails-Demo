@@ -26,7 +26,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 # Bam!
-gem 'wit_ruby', '~> 1.0.0'
+gem 'wit_ruby', '~> 1.0.1'
 
 # For javascript packages
 gem "bower-rails", "~> 0.7.3"
