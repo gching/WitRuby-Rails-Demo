@@ -1,8 +1,10 @@
 # WitRuby Rails Demo
 
-Made to demonstrate capabilties Wit.AI and the wit_ruby gem
+Made to demonstrate capabilities Wit.AI and the WitRuby gem with Rails.
 
-Huge props to the wizards at Wit.AI for making this natrual language interface. Go thank them here on twitter:
+Given a typed message, Wit.AI deciphers the intent and responds accordingly.
+
+Huge props to the wizards at Wit.AI for making this natural language interface. Go thank them here on twitter:
 
 [@WitNL](https://twitter.com/WitNL)
 
