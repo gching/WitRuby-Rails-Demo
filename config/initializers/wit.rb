@@ -1,1 +1,1 @@
-$wit_session = Wit::REST::Client.new(token: "6RTBA7C6Z66SIU2E237YWCAWMHUZR7G2").session
+$wit_session = Wit::REST::Client.new(token: "I7TUO2ZFGEF2IXYU25O4B5CL2QDHLT7E").session
