@@ -15,3 +15,16 @@
 .pad-plz {
   padding-top: 7px;
 }
+
+.speech-mic {
+   background:url("http://stiltsoft.com/blog/wp-content/demo/web-speech-api/textarea/mic.gif") no-repeat 50% 50%;
+
+   width: 50px;
+   height: 34px;
+}
+
+.speech-mic-works {
+    background: url("http://stiltsoft.com/blog/wp-content/demo/web-speech-api/textarea/mic-animate.gif") no-repeat 50% 50%;
+    width: 50px;
+    height: 34px;
+}

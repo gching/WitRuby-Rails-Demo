@@ -16,4 +16,5 @@
 //= require bootstrap/popover
 //= require bootstrap/modal
 //= require custom
-//= require_tree .
+//= require jquery.tubular.1.0
+//= require mic

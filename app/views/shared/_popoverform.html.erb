@@ -4,8 +4,16 @@
         <%= flash[:alert] %>
         <%= form_tag("/create") do %>
           <div class="form-group">
-            <%= text_field_tag(:message, nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %>
+            <div class="container-fluid">
+              <div class="row">
+                 <div class="input-group">
+                <%= text_field_tag("message", nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %>
+                <span class="input-group-btn"><div class="btn derp speech-mic"></div></span>
+              </div>
+              </div>
+            </div>
           </div>
+
           <%= submit_tag("Send", class: "btn btn-primary") %>
           <a title="Help" data-toggle="modal" class="btn btn-success" href="#help">Help</a>
         <% end %>
