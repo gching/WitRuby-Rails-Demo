@@ -8,7 +8,7 @@
               <div class="row">
                  <div class="input-group">
                 <%= text_field_tag("message", nil, placeholder: "Say \"Hi\"", class: "form-control", maxlength: 256) %>
-                <span class="input-group-btn"><div class="btn derp speech-mic"></div></span>
+                <span class="input-group-btn"><div id="recordBtn" onclick="recordClick()" class="btn speech-mic"></div></span>
               </div>
               </div>
             </div>

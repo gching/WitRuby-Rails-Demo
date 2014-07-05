@@ -18,3 +18,4 @@
 //= require custom
 //= require jquery.tubular.1.0
 //= require mic
+//= require mic2
